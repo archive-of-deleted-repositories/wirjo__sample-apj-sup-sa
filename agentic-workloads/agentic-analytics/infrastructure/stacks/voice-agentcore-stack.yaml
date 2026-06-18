@@ -276,7 +276,7 @@ Resources:
   VoiceRuntimeSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: Voice AgentCore Runtime ENIs — egress to Deepgram/Bedrock/KVS/STS via NAT
+      GroupDescription: Voice AgentCore Runtime ENIs - egress to Deepgram/Bedrock/KVS/STS via NAT
       VpcId: !Ref VpcId
       SecurityGroupEgress:
         - IpProtocol: '-1'
